@@ -24,8 +24,8 @@ body{
     /*подключаем сетку*/
     display: grid;
     /*формируем по 2 одинаковых строки и столбца*/
-    grid-template-columns: repeat(2, 200px);
-    grid-template-rows: repeat(2, 200px);
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(2, 250px);
   } 
 .text{
     font-family: 'Comfortaa', cursive;

@@ -1,0 +1,52 @@
+body{
+    background: url(img/krug.png);
+    background-color: #2F303A;
+    background-attachment: fixed;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 115px;
+    padding-left: 115px;
+
+}
+.nav a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.text{
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    font-size: 50px;
+    padding-right: 115px;
+}
+button{
+    width: 253px;
+    height: 72px;
+    background-color: #1762A7;
+    border-width: 0px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+button:hover {
+    background: #5b2163;
+    color: #fff;
+  }

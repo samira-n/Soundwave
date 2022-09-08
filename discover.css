@@ -1,0 +1,52 @@
+body{
+    background: url(img/krug.png);
+    background-color: #2F303A;
+    background-attachment: fixed;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 115px;
+    padding-left: 115px;
+
+}
+.nav a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.grid {
+    /*подключаем сетку*/
+    display: grid;
+    /*формируем по 2 одинаковых строки и столбца*/
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+  } 
+.text{
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    font-size:96px;
+}
+.text2{
+    color: #fff;
+    font-size:24px;
+    font-family: 'Comfortaa', cursive;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.text_main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

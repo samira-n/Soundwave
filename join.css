@@ -1,0 +1,30 @@
+body{
+    background: url(img/krug.png);
+    background-color: #2F303A;
+    background-attachment: fixed;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 115px;
+    padding-left: 115px;
+
+}
+.nav a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.text{
+    color: #fff;
+    font-size: 96px;
+    font-family: 'Righteous', cursive;
+
+}
+.color{
+    color: #BC3A80;
+}

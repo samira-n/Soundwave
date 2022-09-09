@@ -28,3 +28,62 @@ body{
 .color{
     color: #BC3A80;
 }
+
+* {
+    box-sizing: border-box;
+  }
+.form {
+    font-family: 'Righteous', cursive;
+    max-width: 320px;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #272729;
+    border-radius: 10px;
+    
+  }
+  .form p{
+    font-family: 'Righteous', cursive;
+    color: #fff;
+  }
+  
+  .input::placeholder{
+    color: #fff;
+  }
+  .input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    background-color: #272729;
+    border: 1px solid #1762A7;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 8px 10px;
+    border: 0;
+    background-color: #1762A7;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .btn:hover {
+    color: #fff;
+    background-color: #1762A7;
+  }
+
+.join{
+    padding-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
